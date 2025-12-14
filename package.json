@@ -1,0 +1,25 @@
+{
+  "name": "liviaa-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Bot with All Menu and Welcome Button",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["whatsapp-bot", "baileys", "liviaa-bot", "menu-bot"],
+  "author": "LIVIAA ID",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.5.0",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
